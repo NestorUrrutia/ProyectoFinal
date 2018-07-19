@@ -1,0 +1,14 @@
+
+.contenedor{
+	margin-top: 15px;
+	color: white; 
+	background-color: #2D3E50;
+	margin-left: 15%;
+	margin-right: 5%;
+}
+
+.control{
+
+	width: 60%; 
+	height: 30px;
+}

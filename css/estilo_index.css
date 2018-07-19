@@ -1,0 +1,91 @@
+
+
+		body, #f1c1,#f1c3,#f2c1,#f2c3,#f3c1{
+			background-color:#4C4F50;
+			margin-top: 2%;
+			display: block;
+		}
+
+		form {
+      		font-size: 0.875em; 
+      		font-weight:bold;
+		}
+
+		
+		#logo{
+			vertical-align: center;
+			text-align: center;
+			width: 90%;
+			height:80%;
+
+			/*centrado*/
+			margin-top: 0.5em;
+			margin-bottom: 0.5em;
+			margin-left: auto;
+   			margin-right: auto;
+    		display: block;
+		}
+
+		#f1c1{
+	
+			
+
+		}
+		#f1c2{
+			background-color: #029edb;
+			border-radius: 1em 1em 0em 0em;
+		}
+
+		#f1c3{
+		
+			
+		}
+
+		#f2c1{
+	
+			
+		}
+
+		#f2c2{
+			background-color: #f5f5f5;
+			border-radius: 0em 0em 1em 1em;
+
+		}
+
+		#f2c3{
+			
+			
+		}
+
+		#f3c1{
+			
+		}
+
+		#formulario_inicio{
+			background-color: white;
+			margin-top: 0.5em;
+			margin-left: 1em;
+			margin-bottom: 1em;
+			margin-right: 1em;
+			border-radius: 1em 1em 1em 1em;
+			text-align: center;
+			vertical-align: center;
+		}
+
+		#nombre{
+      width: 22em; 
+      position: center;
+      height: 2.5em;
+}
+
+#password{
+      width: 22em; 
+      position: center;
+      height: 2.5em;
+}
+
+#botton{
+      background-color: #09C8FB; 
+      border: #09C8FB;
+      width: 8em;
+}

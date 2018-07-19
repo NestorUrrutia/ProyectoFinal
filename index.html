@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Aula virtual</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="css/estilo_index.css">
+
+	
+</head>
+
+
+<body>
+
+<div class="container-fluid">
+	
+	
+  	<div id="fila1" class="row">
+    	<div id="f1c1" class="col-lg-2">
+
+    	</div>
+
+    	<div id="f1c2"  class="col-lg-8 ">
+    			<img id="logo" src="img/condiciones-deuso.png" >
+		</div>
+
+    	<div id="f1c3" class="col-lg-2">
+
+    	</div>
+  	</div>
+
+  	<div id="fila2" class="row">
+  		<div id="f2c1" class="col-lg-2"></div>
+
+  		<div id="f2c2" class="col-lg-8">
+  			
+  			<div id="formulario_inicio">
+
+  				
+  				
+				<form method="Post" action="acceso_alumno.php">
+					<br>
+					<p id="iniciar_sesion"><h4>Iniciar Sesión</h4></p>
+					<hr>
+				
+					<p>
+						<label id="nombre" >Nombre de Usuario</label><br>
+						<img src="img/account.png">
+						<input id="nombre" name="nombre" type="text" placeholder="username"></input>
+					</p>
+				
+					<p>
+						<label id="password">Contraseña</label><br>
+						<img src="img/lock-question.png">
+						<input id="password" name= "password" type="password" placeholder="password"></input><br>
+					</p>
+
+					<label >Recordarme</label>
+					<input type="checkbox"></input><br>
+					
+					<p>
+						<input id="botton" type="submit" onmouseover="mouse()" onmouseout="salirmouse()" value="Iniciar Sesión" class="btn btn-info"></input>
+					</p><br>
+					
+				</form>
+
+  			</div>
+
+  		</div>
+  		<div id="f2c3" class="col-lg-2"></div>
+
+  	</div>
+
+
+
+
+</div>
+
+</body>
+</html>
